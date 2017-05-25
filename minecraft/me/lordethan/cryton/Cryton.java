@@ -9,7 +9,7 @@ import org.lwjgl.opengl.Display;
 
 public class Cryton {
 
-	private static String Client_Name = "Cryton";
+	private static String Client_Name = "HEj tim";
 	private static double Client_Vesion = 1.0;
 
 	public static final Cryton theClient = new Cryton();
