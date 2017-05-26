@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry excluding="jars/" kind="src" path=""/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="C:/Users/xoleo/TimLincon/minecraft/jars/lwjgl/native"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="lib" path="jars"/>
-	<classpathentry kind="lib" path="C:/Users/xoleo/TimLincon/minecraft/jars/1.8.jar"/>
 	<classpathentry kind="lib" path="C:/Users/xoleo/TimLincon/minecraft/jars/authlib-1.5.21.jar"/>
 	<classpathentry kind="lib" path="C:/Users/xoleo/TimLincon/minecraft/jars/codecjorbis-20101023.jar"/>
 	<classpathentry kind="lib" path="C:/Users/xoleo/TimLincon/minecraft/jars/codecwav-20101023.jar"/>
@@ -38,5 +41,6 @@
 	<classpathentry kind="lib" path="C:/Users/xoleo/TimLincon/minecraft/jars/twitch-external-platform-4.5-natives-windows-64.jar"/>
 	<classpathentry kind="lib" path="C:/Users/xoleo/TimLincon/minecraft/jars/twitch-platform-6.5-natives-windows-64.jar"/>
 	<classpathentry kind="lib" path="C:/Users/xoleo/TimLincon/minecraft/jars/vecmath-1.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/xoleo/TimLincon/minecraft/jars/1.8/1.8.jar"/>
 	<classpathentry kind="output" path=""/>
 </classpath>
