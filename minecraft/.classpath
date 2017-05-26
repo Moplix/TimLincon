@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="jars/" kind="src" path=""/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="C:/Users/xoleo/TimLincon/minecraft/jars/lwjgl/native"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="jars"/>
+	<classpathentry kind="lib" path="C:/Users/xoleo/TimLincon/minecraft/jars/authlib-1.5.21.jar"/>
+	<classpathentry kind="lib" path="C:/Users/xoleo/TimLincon/minecraft/jars/codecjorbis-20101023.jar"/>
+	<classpathentry kind="lib" path="C:/Users/xoleo/TimLincon/minecraft/jars/codecwav-20101023.jar"/>
+	<classpathentry kind="lib" path="C:/Users/xoleo/TimLincon/minecraft/jars/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/xoleo/TimLincon/minecraft/jars/commons-compress-1.8.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/xoleo/TimLincon/minecraft/jars/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/xoleo/TimLincon/minecraft/jars/commons-lang3-3.3.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/xoleo/TimLincon/minecraft/jars/commons-logging-1.1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/xoleo/TimLincon/minecraft/jars/gson-2.2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/xoleo/TimLincon/minecraft/jars/guava-17.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/xoleo/TimLincon/minecraft/jars/httpclient-4.3.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/xoleo/TimLincon/minecraft/jars/httpcore-4.3.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/xoleo/TimLincon/minecraft/jars/icu4j-core-mojang-51.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/xoleo/TimLincon/minecraft/jars/jinput-2.0.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/xoleo/TimLincon/minecraft/jars/jinput-platform-2.0.5-natives-windows.jar"/>
+	<classpathentry kind="lib" path="C:/Users/xoleo/TimLincon/minecraft/jars/jopt-simple-4.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/xoleo/TimLincon/minecraft/jars/jutils-1.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/xoleo/TimLincon/minecraft/jars/libraryjavasound-20101123.jar"/>
+	<classpathentry kind="lib" path="C:/Users/xoleo/TimLincon/minecraft/jars/librarylwjglopenal-20100824.jar"/>
+	<classpathentry kind="lib" path="C:/Users/xoleo/TimLincon/minecraft/jars/log4j-api-2.0-beta9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/xoleo/TimLincon/minecraft/jars/log4j-core-2.0-beta9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/xoleo/TimLincon/minecraft/jars/lwjgl_util-2.9.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/xoleo/TimLincon/minecraft/jars/lwjgl-2.9.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/xoleo/TimLincon/minecraft/jars/lwjgl-platform-2.9.1-natives-windows.jar"/>
+	<classpathentry kind="lib" path="C:/Users/xoleo/TimLincon/minecraft/jars/netty-1.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/xoleo/TimLincon/minecraft/jars/netty-all-4.0.15.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/xoleo/TimLincon/minecraft/jars/realms-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/xoleo/TimLincon/minecraft/jars/slick.jar"/>
+	<classpathentry kind="lib" path="C:/Users/xoleo/TimLincon/minecraft/jars/soundsystem-20120107.jar"/>
+	<classpathentry kind="lib" path="C:/Users/xoleo/TimLincon/minecraft/jars/trove4j-3.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/xoleo/TimLincon/minecraft/jars/twitch-6.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/xoleo/TimLincon/minecraft/jars/twitch-external-platform-4.5-natives-windows-64.jar"/>
+	<classpathentry kind="lib" path="C:/Users/xoleo/TimLincon/minecraft/jars/twitch-platform-6.5-natives-windows-64.jar"/>
+	<classpathentry kind="lib" path="C:/Users/xoleo/TimLincon/minecraft/jars/vecmath-1.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/xoleo/TimLincon/minecraft/jars/1.8/1.8.jar"/>
+	<classpathentry kind="output" path=""/>
+</classpath>
