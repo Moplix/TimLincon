@@ -1,44 +1,47 @@
-[21:01:36] [Client thread/INFO]: Setting user: Player603
-[21:01:36] [Client thread/INFO]: (Session ID is token:0:Player603)
-[21:01:37] [Client thread/INFO]: LWJGL Version: 2.9.1
-[21:01:38] [Client thread/INFO]: Reloading ResourceManager: Default
-[21:01:38] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[21:01:38] [Thread-6/INFO]: Initializing LWJGL OpenAL
-[21:01:38] [Thread-6/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[21:01:38] [Thread-6/INFO]: OpenAL initialized.
-[21:01:39] [Sound Library Loader/INFO]: Sound engine started
-[21:01:40] [Client thread/INFO]: Created: 512x512 textures-atlas
-[21:01:44] [Server thread/INFO]: Starting integrated minecraft server version 1.8
-[21:01:44] [Server thread/INFO]: Generating keypair
-[21:01:44] [Server thread/INFO]: Preparing start region for level 0
-[21:01:45] [Server thread/INFO]: Changing view distance to 5, from 10
-[21:01:46] [Server thread/INFO]: Player603[local:E:245f4a15] logged in with entity id 109 at (-87.62011922396255, 66.0, 133.01361596808832)
-[21:01:46] [Server thread/INFO]: Player603 joined the game
-[21:01:47] [Server thread/INFO]: Saving and pausing game...
-[21:01:47] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[21:01:47] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[21:01:47] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[21:02:15] [Chunk Batcher 1/WARN]: Biome ID is out of bounds: 2049, defaulting to 0 (Ocean)
-[21:02:15] [Chunk Batcher 1/WARN]: Biome ID is out of bounds: 2049, defaulting to 0 (Ocean)
-[21:02:15] [Chunk Batcher 1/WARN]: Biome ID is out of bounds: 2049, defaulting to 0 (Ocean)
-[21:02:36] [Server thread/INFO]: [Player603: Set own game mode to Creative Mode]
-[21:02:36] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[21:02:37] [Server thread/INFO]: Saving and pausing game...
-[21:02:37] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[21:02:37] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[21:02:37] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[21:02:38] [Server thread/INFO]: Player603 has just earned the achievement [Taking Inventory]
-[21:02:38] [Client thread/INFO]: [CHAT] Player603 has just earned the achievement [Taking Inventory]
-[21:03:02] [Server thread/INFO]: Saving and pausing game...
-[21:03:02] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[21:03:02] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[21:03:02] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[21:03:03] [Server thread/INFO]: Stopping server
-[21:03:03] [Server thread/INFO]: Saving players
-[21:03:03] [Server thread/INFO]: Saving worlds
-[21:03:03] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[21:03:03] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[21:03:03] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[21:03:04] [Client thread/INFO]: Stopping!
-[21:03:04] [Client thread/INFO]: SoundSystem shutting down...
-[21:03:04] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[21:40:18] [Client thread/INFO]: Setting user: Player59
+[21:40:18] [Client thread/INFO]: (Session ID is token:0:Player59)
+[21:40:19] [Client thread/INFO]: LWJGL Version: 2.9.1
+[21:40:21] [Client thread/INFO]: Reloading ResourceManager: Default
+[21:40:21] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[21:40:21] [Thread-6/INFO]: Initializing LWJGL OpenAL
+[21:40:21] [Thread-6/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[21:40:21] [Thread-6/INFO]: OpenAL initialized.
+[21:40:21] [Sound Library Loader/INFO]: Sound engine started
+[21:40:26] [Client thread/INFO]: Created: 512x512 textures-atlas
+[21:40:31] [Server thread/INFO]: Starting integrated minecraft server version 1.8
+[21:40:31] [Server thread/INFO]: Generating keypair
+[21:40:31] [Server thread/INFO]: Preparing start region for level 0
+[21:40:32] [Server thread/INFO]: Changing view distance to 5, from 10
+[21:40:33] [Server thread/INFO]: Player59[local:E:93f5bb9e] logged in with entity id 255 at (-100.66604366513589, 66.0, 99.39272698008199)
+[21:40:33] [Server thread/INFO]: Player59 joined the game
+[21:41:05] [Server thread/INFO]: Saving and pausing game...
+[21:41:05] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[21:41:05] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[21:41:05] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[21:41:14] [Server thread/INFO]: Saving and pausing game...
+[21:41:14] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[21:41:14] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[21:41:14] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[21:41:18] [Server thread/INFO]: Saving and pausing game...
+[21:41:18] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[21:41:18] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[21:41:18] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[21:41:30] [Server thread/INFO]: Stopping server
+[21:41:30] [Server thread/INFO]: Saving players
+[21:41:30] [Server thread/INFO]: Saving worlds
+[21:41:30] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[21:41:30] [Client thread/FATAL]: Reported exception thrown!
+net.minecraft.util.ReportedException: Updating screen events
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1793) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1112) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:417) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at org.darkstorm.minecraft.gui.util.GuiManagerDisplayScreen.mouseReleased(GuiManagerDisplayScreen.java:63) ~[bin/:?]
+	at net.minecraft.client.gui.GuiScreen.handleMouseInput(GuiScreen.java:595) ~[bin/:?]
+	at net.minecraft.client.gui.GuiScreen.handleInput(GuiScreen.java:554) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1779) ~[bin/:?]
+	... 4 more
+[21:41:30] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[21:41:30] [Server thread/INFO]: Saving chunks for level 'New World'/The End

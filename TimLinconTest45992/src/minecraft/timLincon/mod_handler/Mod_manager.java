@@ -10,6 +10,7 @@ public class Mod_manager {
 	
 	public Mod_manager() {
 		this.activeMod_handlers.add(new Auto_Sprint());
+		this.activeMod_handlers.add(new Auto_Clicker());
 		this.activeMod_handlers.add(new Full_Bright());
 		this.activeMod_handlers.add(new Flight());
 		this.activeMod_handlers.add(new Kill_Aura());
