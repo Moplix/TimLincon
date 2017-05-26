@@ -9,12 +9,14 @@ public class Mod_handler {
 	
 	//TODO: Values
 	private String name;
+	private String desc;
 	private int bind;
 	private Category category;
 	private boolean isEnabled;
 	
-	public Mod_handler(String name, int bind, Category cate) {
+	public Mod_handler(String name, String desc, int bind, Category cate) {
 		this.name = name;
+		this.desc = desc;
 		this.bind = bind;
 		this.category = cate;
 	}
@@ -22,6 +24,15 @@ public class Mod_handler {
 	public String getName() {
 		return name;
 	}
+	
+	public String getDesc() {
+		return desc;
+	}
+	
+	public void updateDesc(String desc) {
+		this.desc = desc;
+	}
+
 
 	public int getBind() {
 		return bind;

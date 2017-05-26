@@ -8,7 +8,7 @@ import minecraft.timLincon.mod_handler.Mod_handler;
 public class Flight extends Mod_handler {
 
 	public Flight() {
-		super("Flight", Keyboard.KEY_H, Category.PLAYER);
+		super("Flight", "", Keyboard.KEY_H, Category.PLAYER);
 	}
 	
 	public void onTick() {

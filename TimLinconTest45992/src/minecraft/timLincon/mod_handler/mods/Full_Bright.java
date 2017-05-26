@@ -9,7 +9,7 @@ import org.lwjgl.input.Keyboard;
 public class Full_Bright extends Mod_handler {
 	
 	public Full_Bright() {
-		super("Full-bright", Keyboard.KEY_F, Category.WORLD);
+		super("Full-bright", "", Keyboard.KEY_F, Category.WORLD);
 	}
 	
 	public void onTick() {

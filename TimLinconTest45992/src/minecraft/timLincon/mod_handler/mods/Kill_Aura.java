@@ -18,7 +18,7 @@ public class Kill_Aura extends Mod_handler{
 	private int kill_aura_delay;
 
 	public Kill_Aura() {
-		super("Kill Aura", Keyboard.KEY_R, Category.COMBAT);
+		super("Kill Aura", "", Keyboard.KEY_R, Category.COMBAT);
 	}
 
 	public void onTick() {

@@ -10,7 +10,7 @@ import minecraft.timLincon.mod_handler.Mod_handler;
 public class Gui extends Mod_handler{
 
 	public Gui() {
-		super("", Keyboard.KEY_RSHIFT, Category.GUI);
+		super("", "", Keyboard.KEY_RSHIFT, Category.GUI);
 	}
 	
 	public void onToggle(){
