@@ -40,5 +40,6 @@
 			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="TimLinconTest45992/jar/versions/1.8/1.8-natives"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="lib/slick.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

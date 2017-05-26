@@ -2,6 +2,7 @@ package minecraft.timLincon.ui;
 
 import minecraft.timLincon.TimLincon;
 import minecraft.timLincon.Wrapper;
+import minecraft.timLincon.mod_handler.Category;
 import minecraft.timLincon.mod_handler.Mod_handler;
 import minecraft.timLincon.mod_handler.Mod_manager;
 import net.minecraft.client.Minecraft;
@@ -18,6 +19,7 @@ public class Gui_ingame extends GuiIngame{
 		
 		Wrapper.fr.drawString(TimLincon.getClient_name() + " Version: " + TimLincon.getClient_version(), 0, 0, 0xffffffff);
 		renderArrayList();
+		TimLincon.timLincon_client.getGuiManager().renderPinned();
 	}
 
 	private void renderArrayList() {
@@ -25,7 +27,7 @@ public class Gui_ingame extends GuiIngame{
 		for(Mod_handler m : TimLincon.timLincon_client.mod_manager.activeMod_handlers) {
 			m.onRender();
 			
-			if(m.getState()) {
+			if(m.getState() && !m.isCategory(Category.GUI)){
 				Wrapper.fr.drawString(m.getName(), 2, yCount, 0x00ff7f);
 				yCount += 10;
 			}

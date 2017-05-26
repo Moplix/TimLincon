@@ -55,5 +55,11 @@ public class Mod_handler {
 	public void onDisable() {}
 	public void onTick() {}
 	public void onRender() {}
+
+	public final boolean isCategory(Category s) {
+		if (s == category)
+			return true;
+		return false;
+	}
 	
 }
