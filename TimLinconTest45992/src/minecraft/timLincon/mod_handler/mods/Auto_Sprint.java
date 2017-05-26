@@ -6,9 +6,9 @@ import minecraft.timLincon.Wrapper;
 import minecraft.timLincon.mod_handler.Category;
 import minecraft.timLincon.mod_handler.Mod_handler;
 
-public class AutoSprint extends Mod_handler{
+public class Auto_Sprint extends Mod_handler{
 
-	public AutoSprint() {
+	public Auto_Sprint() {
 		super("Auto-Sprint", Keyboard.KEY_R, Category.PLAYER);
 	}
 	

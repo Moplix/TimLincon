@@ -1,7 +1,13 @@
 package minecraft.timLincon.mod_handler;
 
+import net.minecraft.client.Minecraft;
+
 public class Mod_handler {
 	
+	//TODO: Imports
+	public static Minecraft mc = Minecraft.getMinecraft();
+	
+	//TODO: Values
 	private String name;
 	private int bind;
 	private Category category;
