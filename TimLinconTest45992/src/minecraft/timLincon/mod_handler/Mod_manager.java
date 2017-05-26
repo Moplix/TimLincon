@@ -13,6 +13,12 @@ public class Mod_manager {
 		this.activeMod_handlers.add(new Full_Bright());
 		this.activeMod_handlers.add(new Flight());
 		this.activeMod_handlers.add(new Kill_Aura());
+		
+		
+		
+		
+		
+		
 		this.activeMod_handlers.add(new Gui());
 	}
 
