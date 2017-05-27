@@ -17,7 +17,7 @@ public class Gui_ingame extends GuiIngame{
 	public void func_175180_a(float p_175180_1_) {
 		super.func_175180_a(p_175180_1_);
 		
-		Wrapper.fr.drawString(TimLincon.getClient_name() + " Version: " + TimLincon.getClient_version(), 0, 0, 0xffffffff);
+		Wrapper.fu_default.drawString(TimLincon.getClient_name() + " Version: " + TimLincon.getClient_version(), 0, 0, 0xffffffff);
 		renderArrayList();
 		TimLincon.timLincon_client.getGuiManager().renderPinned();
 	}

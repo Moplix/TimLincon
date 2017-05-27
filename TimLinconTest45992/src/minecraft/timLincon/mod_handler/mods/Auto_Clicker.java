@@ -8,16 +8,8 @@ import org.lwjgl.input.Mouse;
 import minecraft.timLincon.mod_handler.Category;
 import minecraft.timLincon.mod_handler.Mod_handler;
 import net.minecraft.client.entity.AbstractClientPlayer;
-import net.minecraft.client.entity.EntityOtherPlayerMP;
-import net.minecraft.client.entity.EntityPlayerSP;
 import net.minecraft.entity.Entity;
-import net.minecraft.entity.EntityLivingBase;
-import net.minecraft.entity.item.EntityItem;
 import net.minecraft.entity.passive.EntityAnimal;
-import net.minecraft.entity.passive.EntityPig;
-import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.entity.player.EntityPlayerMP;
-import net.minecraft.util.Vec3;
 
 public class Auto_Clicker extends Mod_handler{
 

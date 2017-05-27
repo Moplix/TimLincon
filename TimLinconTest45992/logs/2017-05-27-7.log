@@ -1,0 +1,36 @@
+[17:52:03] [Client thread/INFO]: Setting user: Player515
+[17:52:03] [Client thread/INFO]: (Session ID is token:0:Player515)
+[17:52:04] [Client thread/INFO]: LWJGL Version: 2.9.1
+[17:52:06] [Client thread/INFO]: Reloading ResourceManager: Default
+[17:52:06] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[17:52:06] [Thread-6/INFO]: Initializing LWJGL OpenAL
+[17:52:06] [Thread-6/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[17:52:06] [Thread-6/INFO]: OpenAL initialized.
+[17:52:06] [Sound Library Loader/INFO]: Sound engine started
+[17:52:08] [Client thread/INFO]: Created: 512x512 textures-atlas
+[17:52:29] [Server thread/INFO]: Starting integrated minecraft server version 1.8
+[17:52:29] [Server thread/INFO]: Generating keypair
+[17:52:30] [Server thread/INFO]: Preparing start region for level 0
+[17:52:31] [Server thread/INFO]: Changing view distance to 5, from 10
+[17:52:32] [Server thread/INFO]: Player515[local:E:4ba140cf] logged in with entity id 230 at (-90.96908670169154, 64.0, 158.45854717275816)
+[17:52:32] [Server thread/INFO]: Player515 joined the game
+[17:52:36] [Server thread/INFO]: Saving and pausing game...
+[17:52:36] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[17:52:36] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[17:52:36] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[17:52:40] [Thread-6/ERROR]: Error in class 'LibraryLWJGLOpenAL'
+[17:52:40] [Thread-6/ERROR]: Source 'e04adbc8-f877-4d8c-b1e3-5fc31ceffe53' not found in method 'play'
+[17:52:49] [Chunk Batcher 0/WARN]: Biome ID is out of bounds: 165762, defaulting to 0 (Ocean)
+[17:52:49] [Chunk Batcher 0/WARN]: Biome ID is out of bounds: 158413, defaulting to 0 (Ocean)
+[17:53:05] [Server thread/INFO]: Saving and pausing game...
+[17:53:05] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[17:53:05] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[17:53:05] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[17:53:06] [Server thread/INFO]: Saving and pausing game...
+[17:53:06] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[17:53:06] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[17:53:06] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[17:53:08] [Server thread/INFO]: Saving and pausing game...
+[17:53:08] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[17:53:08] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[17:53:08] [Server thread/INFO]: Saving chunks for level 'New World'/The End
