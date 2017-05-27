@@ -17,19 +17,23 @@ import net.minecraft.entity.passive.EntityAnimal;
 import net.minecraft.entity.passive.EntityPig;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.EntityPlayerMP;
+import net.minecraft.util.Vec3;
 
 public class Auto_Clicker extends Mod_handler{
 
-	public static int Attack_Delay = 10;
+	public static int Attack_Delay = 3;
 	private int Attack_Delay_Counter = 0;
+	private Entity selected_entity;
+	
 	public Auto_Clicker() {
 		super("Auto-Clicker", "", Keyboard.KEY_X, Category.GHOST);
 	}
+	
 	public void onTick() {
 		if(this.getState()) {
 			if(Mouse.isButtonDown(2))  {
+				List world_entites = mc.theWorld.loadedEntityList;			
 				Attack_Delay_Counter++;
-				List world_entites = mc.theWorld.loadedEntityList;	
 				
 				for(int i = 0; i < world_entites.size(); i++) {
 					if(world_entites.get(i) instanceof AbstractClientPlayer && world_entites.get(i) != mc.thePlayer || world_entites.get(i) instanceof EntityAnimal) {
