@@ -28,8 +28,8 @@ public class Gui_ingame extends GuiIngame{
 			m.onRender();
 			
 			if(m.getState() && !m.isCategory(Category.GUI)){
-				Wrapper.fr.drawString(m.getName(), 2, yCount, 0x00ff7f);
-				Wrapper.fr.drawString(m.getDesc(), (m.getName().length() * 5) + 7, yCount, 0x7f7f7f);
+				Wrapper.fu_default.drawString(m.getName(), 2, yCount, 0x00ff7f);
+				Wrapper.fu_default.drawString(m.getDesc(), (m.getName().length() * 5) + 7, yCount, 0x7f7f7f);
 				yCount += 10;
 			}
 		}

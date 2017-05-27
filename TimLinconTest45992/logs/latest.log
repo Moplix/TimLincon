@@ -1,77 +1,30 @@
-[17:52:03] [Client thread/INFO]: Setting user: Player515
-[17:52:03] [Client thread/INFO]: (Session ID is token:0:Player515)
-[17:52:04] [Client thread/INFO]: LWJGL Version: 2.9.1
-[17:52:06] [Client thread/INFO]: Reloading ResourceManager: Default
-[17:52:06] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[17:52:06] [Thread-6/INFO]: Initializing LWJGL OpenAL
-[17:52:06] [Thread-6/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[17:52:06] [Thread-6/INFO]: OpenAL initialized.
-[17:52:06] [Sound Library Loader/INFO]: Sound engine started
-[17:52:08] [Client thread/INFO]: Created: 512x512 textures-atlas
-[17:52:29] [Server thread/INFO]: Starting integrated minecraft server version 1.8
-[17:52:29] [Server thread/INFO]: Generating keypair
-[17:52:30] [Server thread/INFO]: Preparing start region for level 0
-[17:52:31] [Server thread/INFO]: Changing view distance to 5, from 10
-[17:52:32] [Server thread/INFO]: Player515[local:E:4ba140cf] logged in with entity id 230 at (-90.96908670169154, 64.0, 158.45854717275816)
-[17:52:32] [Server thread/INFO]: Player515 joined the game
-[17:52:36] [Server thread/INFO]: Saving and pausing game...
-[17:52:36] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[17:52:36] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[17:52:36] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[17:52:40] [Thread-6/ERROR]: Error in class 'LibraryLWJGLOpenAL'
-[17:52:40] [Thread-6/ERROR]: Source 'e04adbc8-f877-4d8c-b1e3-5fc31ceffe53' not found in method 'play'
-[17:52:49] [Chunk Batcher 0/WARN]: Biome ID is out of bounds: 165762, defaulting to 0 (Ocean)
-[17:52:49] [Chunk Batcher 0/WARN]: Biome ID is out of bounds: 158413, defaulting to 0 (Ocean)
-[17:53:05] [Server thread/INFO]: Saving and pausing game...
-[17:53:05] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[17:53:05] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[17:53:05] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[17:53:06] [Server thread/INFO]: Saving and pausing game...
-[17:53:06] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[17:53:06] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[17:53:06] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[17:53:08] [Server thread/INFO]: Saving and pausing game...
-[17:53:08] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[17:53:08] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[17:53:08] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[17:53:59] [Client thread/INFO]: Setting user: Player490
-[17:53:59] [Client thread/INFO]: (Session ID is token:0:Player490)
-[17:54:00] [Client thread/INFO]: LWJGL Version: 2.9.1
-[17:54:03] [Client thread/INFO]: Reloading ResourceManager: Default
-[17:54:03] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[17:54:03] [Thread-5/INFO]: Initializing LWJGL OpenAL
-[17:54:03] [Thread-5/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[17:54:03] [Thread-5/INFO]: OpenAL initialized.
-[17:54:04] [Sound Library Loader/INFO]: Sound engine started
-[17:54:06] [Client thread/INFO]: Created: 512x512 textures-atlas
-[17:54:09] [Server thread/INFO]: Starting integrated minecraft server version 1.8
-[17:54:09] [Server thread/INFO]: Generating keypair
-[17:54:09] [Server thread/INFO]: Preparing start region for level 0
-[17:54:10] [Server thread/INFO]: Changing view distance to 5, from 10
-[17:54:11] [Server thread/INFO]: Player490[local:E:d5fb4c0a] logged in with entity id 188 at (-78.95418994412876, 67.0, 130.01453810258388)
-[17:54:11] [Server thread/INFO]: Player490 joined the game
-[17:54:15] [Server thread/INFO]: Saving and pausing game...
-[17:54:15] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[17:54:15] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[17:54:15] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[17:54:21] [Server thread/INFO]: Saving and pausing game...
-[17:54:21] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[17:54:21] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[17:54:21] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[17:54:34] [Server thread/INFO]: Saving and pausing game...
-[17:54:34] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[17:54:34] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[17:54:34] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[17:55:19] [Server thread/INFO]: Saving and pausing game...
-[17:55:19] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[17:55:19] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[17:55:19] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[17:55:20] [Server thread/INFO]: Stopping server
-[17:55:20] [Server thread/INFO]: Saving players
-[17:55:20] [Server thread/INFO]: Saving worlds
-[17:55:20] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[17:55:20] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[17:55:20] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[17:55:21] [Client thread/INFO]: Stopping!
-[17:55:21] [Client thread/INFO]: SoundSystem shutting down...
-[17:55:21] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[18:07:25] [Client thread/INFO]: Setting user: Player730
+[18:07:25] [Client thread/INFO]: (Session ID is token:0:Player730)
+[18:07:26] [Client thread/INFO]: LWJGL Version: 2.9.1
+[18:07:28] [Client thread/INFO]: Reloading ResourceManager: Default
+[18:07:29] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[18:07:29] [Thread-6/INFO]: Initializing LWJGL OpenAL
+[18:07:29] [Thread-6/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[18:07:29] [Thread-6/INFO]: OpenAL initialized.
+[18:07:29] [Sound Library Loader/INFO]: Sound engine started
+[18:07:35] [Client thread/INFO]: Created: 512x512 textures-atlas
+[18:07:40] [Server thread/INFO]: Starting integrated minecraft server version 1.8
+[18:07:40] [Server thread/INFO]: Generating keypair
+[18:07:41] [Server thread/INFO]: Preparing start region for level 0
+[18:07:42] [Server thread/INFO]: Preparing spawn area: 50%
+[18:07:42] [Server thread/INFO]: Changing view distance to 5, from 10
+[18:07:44] [Server thread/INFO]: Player730[local:E:56249bf3] logged in with entity id 162 at (-89.34671560098111, 66.0, 128.75317947870013)
+[18:07:44] [Server thread/INFO]: Player730 joined the game
+[18:08:10] [Server thread/INFO]: Saving and pausing game...
+[18:08:10] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[18:08:10] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[18:08:10] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[18:08:12] [Server thread/INFO]: Stopping server
+[18:08:12] [Server thread/INFO]: Saving players
+[18:08:12] [Server thread/INFO]: Saving worlds
+[18:08:12] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[18:08:12] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[18:08:12] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[18:08:13] [Client thread/INFO]: Stopping!
+[18:08:13] [Client thread/INFO]: SoundSystem shutting down...
+[18:08:14] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
