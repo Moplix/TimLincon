@@ -39,7 +39,7 @@ import java.util.concurrent.FutureTask;
 
 import javax.imageio.ImageIO;
 
-import minecraft.timLincon.TimLincon;
+import minecraft.timLincon.Piggy;
 import minecraft.timLincon.mod_handler.Mod_handler;
 import minecraft.timLincon.ui.Gui_ingame;
 import net.minecraft.block.Block;
@@ -589,7 +589,7 @@ public class Minecraft implements IThreadListener, IPlayerUsage
         }
 
         //TODO:TimLincon
-        TimLincon.StartClient();
+        Piggy.StartClient();
         
         this.renderGlobal.func_174966_b();
     }
@@ -1930,7 +1930,7 @@ public class Minecraft implements IThreadListener, IPlayerUsage
                     else
                     {
                     	//TODO:TimLincon
-                    	for(Mod_handler m : TimLincon.mod_manager.activeMod_handlers) {
+                    	for(Mod_handler m : Piggy.mod_manager.activeMod_handlers) {
                     		if(var1 == m.getBind()) {
                     			m.toggleHandler();
                     		}

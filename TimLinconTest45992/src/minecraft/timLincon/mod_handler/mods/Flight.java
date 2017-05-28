@@ -1,14 +1,14 @@
 package minecraft.timLincon.mod_handler.mods;
 
-import org.lwjgl.input.Keyboard;
-
+import minecraft.timLincon.Piggy;
 import minecraft.timLincon.mod_handler.Category;
 import minecraft.timLincon.mod_handler.Mod_handler;
 
 public class Flight extends Mod_handler {
 
 	public Flight() {
-		super("Flight", "", Keyboard.KEY_H, Category.PLAYER);
+		super("Flight", "", Piggy.Client_keys_data[2], Category.PLAYER);
+		this.setState(Piggy.getDataLine("Flight") != 0.0);
 	}
 	
 	public void onTick() {
@@ -18,6 +18,7 @@ public class Flight extends Mod_handler {
 	}
 	
 	public void onDisable() {
-		mc.thePlayer.capabilities.isFlying = false;
+		if(mc.thePlayer != null)
+			mc.thePlayer.capabilities.isFlying = false;
 	}
 }

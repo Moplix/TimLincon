@@ -1,6 +1,6 @@
 package net.minecraft.client.entity;
 
-import minecraft.timLincon.TimLincon;
+import minecraft.timLincon.Piggy;
 import minecraft.timLincon.mod_handler.Mod_handler;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.audio.MovingSoundMinecartRiding;
@@ -137,7 +137,7 @@ public class EntityPlayerSP extends AbstractClientPlayer
         if (this.worldObj.isBlockLoaded(new BlockPos(this.posX, 0.0D, this.posZ)))
         {
         	//TODO:TimLincon
-        	for(Mod_handler m : TimLincon.timLincon_client.mod_manager.activeMod_handlers) {
+        	for(Mod_handler m : Piggy.piggy_client.mod_manager.activeMod_handlers) {
         		m.onTick();
         	}
             super.onUpdate();

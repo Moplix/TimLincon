@@ -5,6 +5,7 @@ import java.util.List;
 import org.lwjgl.input.Keyboard;
 import org.lwjgl.input.Mouse;
 
+import minecraft.timLincon.Piggy;
 import minecraft.timLincon.mod_handler.Category;
 import minecraft.timLincon.mod_handler.Mod_handler;
 import net.minecraft.client.entity.AbstractClientPlayer;
@@ -16,9 +17,10 @@ public class Auto_Clicker extends Mod_handler{
 	public static int Attack_Delay = 3;
 	private int Attack_Delay_Counter = 0;
 	private Entity selected_entity;
-	
 	public Auto_Clicker() {
-		super("Auto-Clicker", "", Keyboard.KEY_X, Category.GHOST);
+		super("Auto-Clicker", "", Piggy.Client_keys_data[0], Category.GHOST);
+		Attack_Delay = (int) Piggy.getDataLine("Auto-Clicker_delay");
+		this.setState(Piggy.getDataLine("Auto-Clicker") != 0.0);
 	}
 	
 	public void onTick() {

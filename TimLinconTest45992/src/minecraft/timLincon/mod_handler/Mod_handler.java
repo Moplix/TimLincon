@@ -1,5 +1,6 @@
 package minecraft.timLincon.mod_handler;
 
+import minecraft.timLincon.Piggy;
 import net.minecraft.client.Minecraft;
 
 public class Mod_handler {
@@ -50,10 +51,12 @@ public class Mod_handler {
 		this.onToggle();
 		if(data) {
 			this.onEnable();
-			this.isEnabled = true;
+			this.isEnabled = true; 
+			Piggy.setDataLine(this.getName(), 1);
 		} else {
 			this.onDisable();
 			this.isEnabled = false;
+			Piggy.setDataLine(this.getName(), 0);
 		}
 	}
 	

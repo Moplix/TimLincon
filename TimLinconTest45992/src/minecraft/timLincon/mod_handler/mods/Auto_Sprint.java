@@ -1,7 +1,6 @@
 package minecraft.timLincon.mod_handler.mods;
 
-import org.lwjgl.input.Keyboard;
-
+import minecraft.timLincon.Piggy;
 import minecraft.timLincon.Wrapper;
 import minecraft.timLincon.mod_handler.Category;
 import minecraft.timLincon.mod_handler.Mod_handler;
@@ -9,7 +8,8 @@ import minecraft.timLincon.mod_handler.Mod_handler;
 public class Auto_Sprint extends Mod_handler{
 
 	public Auto_Sprint() {
-		super("Auto-Sprint", "", Keyboard.KEY_R, Category.PLAYER);
+		super("Auto-Sprint", "", Piggy.Client_keys_data[1], Category.PLAYER);
+		this.setState(Piggy.getDataLine("Auto-Sprint") != 0.0);
 	}
 	
 	public void onTick() {

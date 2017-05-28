@@ -1,6 +1,6 @@
 package minecraft.timLincon.ui;
 
-import minecraft.timLincon.TimLincon;
+import minecraft.timLincon.Piggy;
 import minecraft.timLincon.Wrapper;
 import minecraft.timLincon.mod_handler.Category;
 import minecraft.timLincon.mod_handler.Mod_handler;
@@ -17,14 +17,14 @@ public class Gui_ingame extends GuiIngame{
 	public void func_175180_a(float p_175180_1_) {
 		super.func_175180_a(p_175180_1_);
 		
-		Wrapper.fu_default.drawString(TimLincon.getClient_name() + " Version: " + TimLincon.getClient_version(), 0, 0, 0xffffffff);
+		Wrapper.fu_default.drawString(Piggy.getClient_name() + Piggy.getClient_version(), 0, 0, 0xffffffff);
 		renderArrayList();
-		TimLincon.timLincon_client.getGuiManager().renderPinned();
+		Piggy.piggy_client.getGuiManager().renderPinned();
 	}
 
 	private void renderArrayList() {
 		int yCount = 10;
-		for(Mod_handler m : TimLincon.timLincon_client.mod_manager.activeMod_handlers) {
+		for(Mod_handler m : Piggy.piggy_client.mod_manager.activeMod_handlers) {
 			m.onRender();
 			
 			if(m.getState() && !m.isCategory(Category.GUI)){

@@ -44,7 +44,6 @@ import org.darkstorm.minecraft.gui.listener.*;
 import org.darkstorm.minecraft.gui.theme.Theme;
 import org.darkstorm.minecraft.gui.theme.simple.SimpleTheme;
 
-import minecraft.timLincon.TimLincon;
 import minecraft.timLincon.mod_handler.Category;
 import minecraft.timLincon.mod_handler.Mod_handler;
 import minecraft.timLincon.mod_handler.Mod_manager;

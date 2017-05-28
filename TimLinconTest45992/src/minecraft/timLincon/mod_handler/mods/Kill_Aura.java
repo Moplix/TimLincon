@@ -2,6 +2,7 @@ package minecraft.timLincon.mod_handler.mods;
 
 import java.util.List;
 
+import minecraft.timLincon.Piggy;
 import minecraft.timLincon.mod_handler.Category;
 import minecraft.timLincon.mod_handler.Mod_handler;
 import net.minecraft.entity.Entity;
@@ -18,7 +19,8 @@ public class Kill_Aura extends Mod_handler{
 	private int kill_aura_delay;
 
 	public Kill_Aura() {
-		super("Kill Aura", "", Keyboard.KEY_R, Category.COMBAT);
+		super("Kill Aura", "", Piggy.Client_keys_data[5], Category.COMBAT);
+		this.setState(Piggy.getDataLine("Kill Aura") != 0.0);
 	}
 
 	public void onTick() {
