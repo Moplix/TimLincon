@@ -10,6 +10,7 @@ import minecraft.timLincon.mod_handler.Category;
 import minecraft.timLincon.mod_handler.Mod_handler;
 import net.minecraft.client.entity.AbstractClientPlayer;
 import net.minecraft.entity.Entity;
+import net.minecraft.entity.monster.EntityMob;
 import net.minecraft.entity.passive.EntityAnimal;
 
 public class Auto_Clicker extends Mod_handler{
@@ -30,7 +31,7 @@ public class Auto_Clicker extends Mod_handler{
 				Attack_Delay_Counter++;
 				
 				for(int i = 0; i < world_entites.size(); i++) {
-					if(world_entites.get(i) instanceof AbstractClientPlayer && world_entites.get(i) != mc.thePlayer || world_entites.get(i) instanceof EntityAnimal) {
+					if(world_entites.get(i) instanceof AbstractClientPlayer && world_entites.get(i) != mc.thePlayer || world_entites.get(i) instanceof EntityMob || world_entites.get(i) instanceof EntityAnimal) {
 			
 						
 						Entity entity = (Entity) world_entites.get(i);

@@ -1,16 +1,12 @@
 package minecraft.timLincon;
 
-import java.awt.List;
 import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
-import java.io.FileWriter;
 import java.io.PrintWriter;
 
 import minecraft.timLincon.managers.GuiManager;
 import minecraft.timLincon.mod_handler.Mod_manager;
+import net.minecraft.client.Minecraft;
 
 import org.darkstorm.minecraft.gui.theme.simple.SimpleTheme;
 import org.darkstorm.minecraft.gui.util.GuiManagerDisplayScreen;
@@ -21,10 +17,11 @@ public class Piggy {
 	
 	public static String Client_name = "Piggy";
 	public static double Client_version = 1.1;
-	public static float[] Client_settings_data = new float[6];
-	public static int[] Client_keys_data = new int[6];
+	public static float[] Client_settings_data = new float[11];
+	public static int[] Client_keys_data = new int[10];
 	
 	public static final Piggy piggy_client = new Piggy();
+	private static Minecraft mc = Minecraft.getMinecraft();
 	public static Mod_manager mod_manager;
 	
 	private GuiManagerDisplayScreen gui;
@@ -36,8 +33,11 @@ public class Piggy {
 		//men det är inget att stressa över. ^^ 
 		System.err.println("[Piggy_client] Initializing.."); 
 		LoadData();
-		mod_manager = new Mod_manager();
 		Display.setTitle(Client_name);
+		
+		mod_manager = new Mod_manager();
+		mc.gameSettings.viewBobbing = false;
+		
 		System.err.println("[Piggy_client] Done initializing!");
 	}
 	
@@ -46,9 +46,14 @@ public class Piggy {
 		Client_settings_data[0] = 0; //Auto_sprint
 		Client_settings_data[1] = 0; //Auto_clicker
 		Client_settings_data[2] = 3; //Auto_clicker_delay
-		Client_settings_data[3] = 0; //Auto_clicker_delay
-		Client_settings_data[4] = 0; //Auto_clicker_delay
-		Client_settings_data[5] = 0; //Auto_clicker_delay
+		Client_settings_data[3] = 0; //Flight
+		Client_settings_data[4] = 0; //Full_Bright
+		Client_settings_data[5] = 0; //GUI
+		Client_settings_data[6] = 0; //Kill_Aura
+		Client_settings_data[7] = 0; //PlayerESP
+		Client_settings_data[8] = 0; //MobESP
+		Client_settings_data[9] = 0; //PlayerTracer
+		Client_settings_data[10] = 0; //MobTracer
 		
 		//TODO: default data_keys
 		Client_keys_data[0] = Keyboard.KEY_X; //Auto_Clicker
@@ -57,6 +62,10 @@ public class Piggy {
 		Client_keys_data[3] = Keyboard.KEY_V; //Full_Bright
 		Client_keys_data[4] = Keyboard.KEY_RSHIFT; //GUI
 		Client_keys_data[5] = Keyboard.KEY_R; //Kill_Aura
+		Client_keys_data[6] = Keyboard.KEY_NONE; //PlayerESP
+		Client_keys_data[7] = Keyboard.KEY_NONE; //MobESP
+		Client_keys_data[8] = Keyboard.KEY_NONE; //PlayerTracer
+		Client_keys_data[9] = Keyboard.KEY_NONE; //MobTracer
 		
 		try(BufferedReader br = new BufferedReader(new FileReader("Piggy_settings.txt"))) {
 			System.out.println("[Piggy_client] Found settings data file, reading..");
@@ -116,8 +125,12 @@ public class Piggy {
 			System.out.println("[Piggy_client] Making a save, piggy_settings.txt");
 			PrintWriter wr = new PrintWriter("Piggy_settings.txt", "UTF-8");
 			
-			System.err.println("[Piggy_client] " + data_index + ", " + data);
-			
+			if(!data_index.isEmpty())
+				System.err.println("[Piggy_client] " + data_index + ", " + data);
+			else
+				System.err.println("[Piggy_client] No-name, " + data);
+				
+				
 			switch (data_index) {
 			case "Auto-Sprint":
 				Client_settings_data[0] = data; //Auto_sprint
@@ -137,6 +150,18 @@ public class Piggy {
 			case "Kill Aura":
 				Client_settings_data[5] = data; //Kill_aura
 				break;
+			case "PlayerESP":
+				Client_settings_data[6] = data; //PlayerESP
+				break;
+			case "MobESP":
+				Client_settings_data[7] = data; //MobESP
+				break;
+			case "PlayerTracer":
+				Client_settings_data[8] = data; //PlayerTracer
+				break;
+			case "MobTracer":
+				Client_settings_data[9] = data; //MobTracer
+				break;
 			
 			default:
 				break;
@@ -154,6 +179,7 @@ public class Piggy {
 		}
 	}
 	
+	//På dom här måste namnet stämma in på mod:ets ingame namn.
 	public static float getDataLine(String data_index) {
 		switch (data_index) {
 		case "Auto-Sprint":
@@ -168,6 +194,14 @@ public class Piggy {
 			return Client_settings_data[4];
 		case "Kill Aura":
 			return Client_settings_data[5];
+		case "PlayerESP":
+			return Client_settings_data[6];
+		case "MobESP":
+			return Client_settings_data[7];
+		case "PlayerTracer":
+			return Client_settings_data[8];
+		case "MobTracer":
+			return Client_settings_data[9];
 
 		default:
 			return 0;

@@ -1,6 +1,10 @@
 package net.minecraft.client.renderer;
 
 import com.google.gson.JsonSyntaxException;
+
+import minecraft.timLincon.Piggy;
+import minecraft.timLincon.mod_handler.Mod_handler;
+
 import java.io.IOException;
 import java.nio.FloatBuffer;
 import java.util.List;
@@ -1469,6 +1473,12 @@ public class EntityRenderer implements IResourceManagerReloadListener
         }
 
         this.mc.mcProfiler.endStartSection("hand");
+        
+        //TODO: Piggy
+        	for(Mod_handler m: Piggy.piggy_client.mod_manager.activeMod_handlers){
+        		m.onRender();
+        	}
+        //TODO: END
 
         if (this.field_175074_C)
         {
