@@ -17,8 +17,8 @@ public class Piggy {
 	
 	public static String Client_name = "Piggy";
 	public static double Client_version = 1.1;
-	public static float[] Client_settings_data = new float[11];
-	public static int[] Client_keys_data = new int[10];
+	public static float[] Client_settings_data = new float[12];
+	public static int[] Client_keys_data = new int[11];
 	
 	public static final Piggy piggy_client = new Piggy();
 	private static Minecraft mc = Minecraft.getMinecraft();
@@ -54,6 +54,7 @@ public class Piggy {
 		Client_settings_data[8] = 0; //MobESP
 		Client_settings_data[9] = 0; //PlayerTracer
 		Client_settings_data[10] = 0; //MobTracer
+		Client_settings_data[11] = 0; //No_Fall
 		
 		//TODO: default data_keys
 		Client_keys_data[0] = Keyboard.KEY_X; //Auto_Clicker
@@ -66,6 +67,7 @@ public class Piggy {
 		Client_keys_data[7] = Keyboard.KEY_NONE; //MobESP
 		Client_keys_data[8] = Keyboard.KEY_NONE; //PlayerTracer
 		Client_keys_data[9] = Keyboard.KEY_NONE; //MobTracer
+		Client_keys_data[10] = Keyboard.KEY_NONE; //No_Fall
 		
 		try(BufferedReader br = new BufferedReader(new FileReader("Piggy_settings.txt"))) {
 			System.out.println("[Piggy_client] Found settings data file, reading..");
