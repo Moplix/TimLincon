@@ -18,6 +18,7 @@ public class Mod_manager {
 		this.activeMod_handlers.add(new ESPMobs());
 		this.activeMod_handlers.add(new TracerPlayer());
 		this.activeMod_handlers.add(new TracerMobs());
+		this.activeMod_handlers.add(new ChestESP());
 		
 		
 		

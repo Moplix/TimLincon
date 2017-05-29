@@ -3,6 +3,7 @@ package minecraft.timLincon.mod_handler.mods;
 import minecraft.timLincon.Piggy;
 import minecraft.timLincon.mod_handler.Category;
 import minecraft.timLincon.mod_handler.Mod_handler;
+import net.minecraft.tileentity.TileEntityChest;
 
 public class Flight extends Mod_handler {
 

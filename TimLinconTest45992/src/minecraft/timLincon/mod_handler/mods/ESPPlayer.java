@@ -1,14 +1,10 @@
 package minecraft.timLincon.mod_handler.mods;
 
-import org.lwjgl.input.Keyboard;
-
 import minecraft.timLincon.Piggy;
 import minecraft.timLincon.mod_handler.Category;
 import minecraft.timLincon.mod_handler.Mod_handler;
 import minecraft.timLincon.utils.RenderUtils;
 import net.minecraft.entity.EntityLivingBase;
-import net.minecraft.entity.monster.EntityMob;
-import net.minecraft.entity.passive.EntityAnimal;
 import net.minecraft.entity.player.EntityPlayer;
 
 public class ESPPlayer extends Mod_handler {

@@ -17,7 +17,7 @@ public class Piggy {
 	
 	public static String Client_name = "Piggy";
 	public static double Client_version = 1.1;
-	public static float[] Client_settings_data = new float[12];
+	public static float[] Client_settings_data = new float[13];
 	public static int[] Client_keys_data = new int[11];
 	
 	public static final Piggy piggy_client = new Piggy();
@@ -55,6 +55,7 @@ public class Piggy {
 		Client_settings_data[9] = 0; //PlayerTracer
 		Client_settings_data[10] = 0; //MobTracer
 		Client_settings_data[11] = 0; //No_Fall
+		Client_settings_data[12] = 0; //ChestESP
 		
 		//TODO: default data_keys
 		Client_keys_data[0] = Keyboard.KEY_X; //Auto_Clicker
