@@ -13,7 +13,7 @@ public class Mod_handler {
 	private String desc;
 	private int bind;
 	private Category category;
-	private boolean isEnabled;
+	public boolean isEnabled;
 	
 	public Mod_handler(String name, String desc, int bind, Category cate) {
 		this.name = name;

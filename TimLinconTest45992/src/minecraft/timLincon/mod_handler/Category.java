@@ -1,5 +1,5 @@
 package minecraft.timLincon.mod_handler;
 
 public enum Category {
-	COMBAT, WORLD, PLAYER, RENDER, GUI, GHOST
+	COMBAT, WORLD, PLAYER, RENDER, GUI, GHOST, MOVEMENT
 }

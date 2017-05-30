@@ -8,7 +8,7 @@ import minecraft.timLincon.mod_handler.Mod_handler;
 public class Auto_Sprint extends Mod_handler{
 
 	public Auto_Sprint() {
-		super("Auto-Sprint", "", Piggy.Client_keys_data[1], Category.PLAYER);
+		super("Auto-Sprint", "", Piggy.Client_keys_data[1], Category.MOVEMENT);
 		this.setState(Piggy.getDataLine("Auto-Sprint") != 0.0);
 	}
 	

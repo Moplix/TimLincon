@@ -9,7 +9,7 @@ import net.minecraft.network.play.INetHandlerPlayServer;
 public class C03PacketPlayer implements Packet
 {
     protected double x;
-    protected double y;
+    public double y;
     protected double z;
     protected float yaw;
     protected float pitch;

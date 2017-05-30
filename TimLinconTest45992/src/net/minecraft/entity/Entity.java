@@ -5,6 +5,10 @@ import java.util.List;
 import java.util.Random;
 import java.util.UUID;
 import java.util.concurrent.Callable;
+
+import minecraft.timLincon.mod_handler.Mod_manager;
+import minecraft.timLincon.mod_handler.mods.HitBox;
+import minecraft.timLincon.mod_handler.mods.MegaHitBox;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockFence;
 import net.minecraft.block.BlockFenceGate;
@@ -100,7 +104,7 @@ public abstract class Entity implements ICommandSender
     public float prevRotationPitch;
 
     /** Axis aligned bounding box. */
-    private AxisAlignedBB boundingBox;
+    public AxisAlignedBB boundingBox;
     public boolean onGround;
 
     /**
@@ -2025,6 +2029,12 @@ public abstract class Entity implements ICommandSender
 
     public float getCollisionBorderSize()
     {
+    	if(Mod_manager.getModule(MegaHitBox.class).isEnabled){ //TODO: Piggy
+    		return 5.0F;
+    	}
+    	if(Mod_manager.getModule(HitBox.class).isEnabled){ //TODO: Piggy
+    		return 0.5F;
+    	}
         return 0.1F;
     }
 

@@ -8,7 +8,7 @@ import net.minecraft.tileentity.TileEntityChest;
 public class Flight extends Mod_handler {
 
 	public Flight() {
-		super("Flight", "", Piggy.Client_keys_data[2], Category.PLAYER);
+		super("Flight", "", Piggy.Client_keys_data[2], Category.MOVEMENT);
 		this.setState(Piggy.getDataLine("Flight") != 0.0);
 	}
 	

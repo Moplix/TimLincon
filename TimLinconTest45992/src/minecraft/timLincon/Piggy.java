@@ -17,8 +17,8 @@ public class Piggy {
 	
 	public static String Client_name = "Piggy";
 	public static double Client_version = 1.1;
-	public static float[] Client_settings_data = new float[13];
-	public static int[] Client_keys_data = new int[11];
+	public static float[] Client_settings_data = new float[21];
+	public static int[] Client_keys_data = new int[20];
 	
 	public static final Piggy piggy_client = new Piggy();
 	private static Minecraft mc = Minecraft.getMinecraft();
@@ -56,6 +56,14 @@ public class Piggy {
 		Client_settings_data[10] = 0; //MobTracer
 		Client_settings_data[11] = 0; //No_Fall
 		Client_settings_data[12] = 0; //ChestESP
+		Client_settings_data[13] = 0; //KeepSprint
+		Client_settings_data[14] = 0; //HitBox
+		Client_settings_data[15] = 0; //Reach
+		Client_settings_data[16] = 0; //AntiFire
+		Client_settings_data[17] = 0; //MegaHitBox
+		Client_settings_data[18] = 0; //TriggerBot
+		Client_settings_data[19] = 0; //SmoothAim
+		Client_settings_data[20] = 0; //Criticals
 		
 		//TODO: default data_keys
 		Client_keys_data[0] = Keyboard.KEY_X; //Auto_Clicker
@@ -69,6 +77,15 @@ public class Piggy {
 		Client_keys_data[8] = Keyboard.KEY_NONE; //PlayerTracer
 		Client_keys_data[9] = Keyboard.KEY_NONE; //MobTracer
 		Client_keys_data[10] = Keyboard.KEY_NONE; //No_Fall
+		Client_keys_data[11] = Keyboard.KEY_NONE; //ChestESP
+		Client_keys_data[12] = Keyboard.KEY_NONE; //KeepSprint
+		Client_keys_data[13] = Keyboard.KEY_NONE; //HitBox
+		Client_keys_data[14] = Keyboard.KEY_NONE; //Reach
+		Client_keys_data[15] = Keyboard.KEY_NONE; //AntiFire
+		Client_keys_data[16] = Keyboard.KEY_NONE; //MegaHitBox
+		Client_keys_data[17] = Keyboard.KEY_NONE; //TriggerBot
+		Client_keys_data[18] = Keyboard.KEY_NONE; //SmoothAim
+		Client_keys_data[19] = Keyboard.KEY_NONE; //Criticals
 		
 		try(BufferedReader br = new BufferedReader(new FileReader("Piggy_settings.txt"))) {
 			System.out.println("[Piggy_client] Found settings data file, reading..");

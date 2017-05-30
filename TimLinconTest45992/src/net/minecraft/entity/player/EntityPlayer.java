@@ -3,6 +3,9 @@ package net.minecraft.entity.player;
 import com.google.common.base.Charsets;
 import com.google.common.collect.Lists;
 import com.mojang.authlib.GameProfile;
+
+import minecraft.timLincon.mod_handler.mods.KeepSprint;
+
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.List;
@@ -1354,9 +1357,14 @@ public abstract class EntityPlayer extends EntityLivingBase
                         if (var18 > 0)
                         {
                             targetEntity.addVelocity((double)(-MathHelper.sin(this.rotationYaw * (float)Math.PI / 180.0F) * (float)var18 * 0.5F), 0.1D, (double)(MathHelper.cos(this.rotationYaw * (float)Math.PI / 180.0F) * (float)var18 * 0.5F));
+                            if (!KeepSprint.toggle){
+                            	
+//TODO: Piggy
                             this.motionX *= 0.6D;
                             this.motionZ *= 0.6D;
                             this.setSprinting(false);
+                            this.onCriticalHit(targetEntity);
+                            }
                         }
 
                         if (targetEntity instanceof EntityPlayerMP && targetEntity.velocityChanged)

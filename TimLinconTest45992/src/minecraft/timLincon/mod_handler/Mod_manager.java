@@ -18,7 +18,16 @@ public class Mod_manager {
 		this.activeMod_handlers.add(new ESPMobs());
 		this.activeMod_handlers.add(new TracerPlayer());
 		this.activeMod_handlers.add(new TracerMobs());
+		this.activeMod_handlers.add(new No_Fall());
 		this.activeMod_handlers.add(new ChestESP());
+		this.activeMod_handlers.add(new KeepSprint());
+		this.activeMod_handlers.add(new HitBox());
+		this.activeMod_handlers.add(new Reach());
+		this.activeMod_handlers.add(new AntiFire());
+		this.activeMod_handlers.add(new MegaHitBox());
+		this.activeMod_handlers.add(new Criticals());
+		this.activeMod_handlers.add(new TriggerBot());
+		this.activeMod_handlers.add(new SmoothAim());
 		
 		
 		
@@ -32,7 +41,7 @@ public class Mod_manager {
 		return activeMod_handlers;
 	}
 	
-	public Mod_handler getModule(Class <? extends Mod_handler> clazz){
+	public static Mod_handler getModule(Class <? extends Mod_handler> clazz){
 		for(Mod_handler mod: getModules()){
 			if(mod.getClass() == clazz){
 				return mod;

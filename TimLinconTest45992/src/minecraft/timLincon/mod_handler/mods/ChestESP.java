@@ -20,7 +20,6 @@ public class ChestESP extends Mod_handler {
 			return;
 		
 		for(Object theObject : mc.theWorld.loadedTileEntityList) {
-			System.out.println(theObject);
 			if(theObject.getClass() == TileEntityChest.class) 
 				chest((TileEntityChest)theObject);
 		}
@@ -37,10 +36,6 @@ public class ChestESP extends Mod_handler {
 		double yPos = entity.getPos().getY() - mc.getRenderManager().renderPosY;
 		double zPos = entity.getPos().getZ() - mc.getRenderManager().renderPosZ;
 		
-		System.out.println(
-				entity.getPos().getX() + ", " + xPos + "|" +
-				entity.getPos().getY() + ", " + yPos + "|" +
-				entity.getPos().getZ() + ", " + zPos );
 		render(red, green, blue, xPos, yPos, zPos, 10, 10);
 	}
 	

@@ -1,5 +1,7 @@
 package net.minecraft.client.multiplayer;
 
+import minecraft.timLincon.mod_handler.Mod_manager;
+import minecraft.timLincon.mod_handler.mods.Reach;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
@@ -340,6 +342,9 @@ public class PlayerControllerMP
      */
     public float getBlockReachDistance()
     {
+    	if(Reach.Reach){
+    		return(float)(Mod_manager.getModule(Reach.class).isEnabled ? 6f : 6f);
+    	}
         return this.currentGameType.isCreative() ? 5.0F : 4.5F;
     }
 
@@ -593,6 +598,9 @@ public class PlayerControllerMP
      */
     public boolean extendedReach()
     {
+    	if(Reach.Reach){
+    		return true;
+    	}
         return this.currentGameType.isCreative();
     }
 
